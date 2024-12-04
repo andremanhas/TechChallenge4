@@ -20,7 +20,7 @@ if uploaded_file:
     st.write(data.head())
     
     # Exibir previsões
-    steps = st.number_input("Número de períodos para prever:", min_value=1, max_value=100, value=10)
+    steps = st.number_input("Número de períodos para prever:", min_value=1, max_value=10, value=5)
     
     if st.button("Fazer Previsões"):
         # Fazer previsões
